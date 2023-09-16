@@ -1,0 +1,280 @@
+/* ==UserStyle==
+@name           tiktok.com - 9/10/2023, 11:42:11 PM
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+@-moz-document domain("tiktok.com") {
+	/* Insert code here... */
+}
+:root {
+	--wallpa1: url(https://i.ibb.co/Dp0JZXc/1068318.png) center center/cover no-repeat fixed #25232e !important;
+	--color: #7aa2f7;
+}
+/*
+  body,
+  .main-body,
+  [class*="DivBodyContainer"] [class*="DivLiveContentContainer"] [class*="DivLiveFeedPage"] {
+    background: var(--wallpa1);
+  }
+*/
+[class*="DivBodyContainer"] [class*="DivLayout"] {
+	background: var(--wallpa1);
+}
+.main-body .row-layout-background,
+#app [class*="DivBodyContainer"] [class*="DivSettingContainer"] {
+	background: var(--wallpa1);
+}
+#root .main-body .layout {
+	background: var(--wallpa1);
+	background-attachment: fixed;
+	box-shadow: 0 0 0 !important;
+}
+
+
+[class*="DivBodyContainer"] [class*="DivBrowserModeContainer"],
+[class*="DivBrowserModeContainer"] [class*="DivCommentListContainer"],
+[class*="DivBottomCommentContainer"],
+[class*="DivCommentContainer"] {
+	background: var(--wallpa1);
+}
+
+
+
+div#main-content-others_homepage {
+	max-width: 100%;
+}
+
+.css-q969e7-DivIconWrapper.e11s2kul18 {
+	display: none;
+}
+
+/*Backgund
+div#main-content-homepage_hot {
+    background: #000;
+}
+*/
+div#main-content-homepage_hot {
+	background: var(--wallpa1);
+}
+
+div#main-content-others_homepage {
+	background: var(--wallpa1);
+}
+
+
+
+/*Header*/
+div#app-header {
+	display: none !important;
+}
+
+div#header-more-menu-icon {
+	display: flex !important;
+}
+
+div#app-header {
+	background: rgba(255, 255, 255, 0) !important;
+}
+
+.css-14dcx2q-DivBodyContainer.e1irlpdw0 {
+	margin-top: 0;
+}
+/*Comment*/
+.css-ibh9b5-DivContentContainer {
+	display: none !important;
+}
+
+/*Button*/
+use {
+	color: var(--color);
+}
+
+sup.css-1ksvyzc-SupBadge.e18kkhh43 {
+	display: none !important;
+}
+
+.css-yg0pvs-ButtonBasicButtonContainer-StyledCloseIconContainer {
+	display: none !important;
+}
+
+.css-121llc2,
+.search-container .search-input,
+[class*="DivSearchFormContainer"] [class*="search-input"] {
+	display: none;
+}
+
+img {
+	opacity: 0.8;
+}
+
+.css-1s9jpf8-ButtonBasicButtonContainer-StyledVideoSwitch {
+	display: none !important;
+}
+
+.css-18lbpuf-DivIconWrapper {
+	display: none !important;
+}
+
+.css-6mttet-ButtonVoiceControlNew {
+	display: none !important;
+}
+
+.css-1w6o9i7-ButtonBasicButtonContainer-StyledVideoSwitch {
+	display: none !important;
+}
+
+.css-zxlu1q-DivReportText {
+	display: none !important;
+}
+
+.css-qxzyco-DivBottomContainer.ew8lpw50 {
+	display: none !IMPORTANT;
+}
+
+
+/*Home*/
+.css-1hhj6ie-DivTextInfoContainer {
+	display: none !important;
+}
+
+.css-oafr3p-DivUserContainer {
+	display: none !important;
+}
+
+.css-1eo184-DivFooterContainer {
+	display: none !important;
+}
+
+
+.css-dch9ro-ALink-StyledTmpLink {
+	display: none !important;
+}
+
+.css-r0hg2a-DivSideNavContainer.e1irlpdw1 {
+	display: none !important;
+}
+/*View*/
+.css-1czmy9n-DivVideoList.ege8lhx5 {
+	display: none;
+}
+
+.css-1bg47i4-DivCommentBarContainer.e1a7v7ak2 {
+	display: none !important;
+}
+/*Video*/
+/*
+
+.css-8lv75m-DivBasicPlayerWrapper .tiktok-web-player video {
+    background: url(https://i.ibb.co/59F3tXG/rev2.jpg);
+}
+*/
+/*Profile*/
+main.css-q6kzcs-MainDetailWrapper.ekmpd5l10 {
+	display: none !important;
+}
+
+.css-3lfoqn-DivDescriptionContentWrapper-StyledDetailContentWrapper.eqrezik14 {
+	display: none !important;
+}
+
+
+.css-1g0p6jv-StyledInboxIcon {
+	display: none !important;
+}
+
+[class*="DivUpload"] {
+	display: none !important;
+}
+
+.css-6w7f1i-DivDownloadContainer {
+	display: none !important;
+}
+
+.css-9j9jz0-DivMessageIconContainer {
+	display: none !important;
+}
+.css-1vve6pb-DivSearchBarBackground.e11s2kul28 {
+	display: none !important;
+}
+
+div#browser-mode-report-btn {
+	display: none !important;
+}
+
+/*Profile button*/
+p.css-19wzc96-PPost.e1jjp0pq1 {
+	color: var(--color);
+}
+
+p.css-y8bawn-PFavorite.e1jjp0pq2 {
+	color: var(--color);
+}
+
+p.css-moaz8h-PLike.e1jjp0pq3 {
+	color: var(--color);
+}
+
+strong.video-count.css-dirst9-StrongVideoCount.e148ts222 {
+	color: var(--color);
+}
+/*Search*/
+div#search-tabs {
+	background: transparent;
+}
+
+.css-14dcx2q-DivBodyContainer.e1irlpdw0 {
+	background: var(--wallpa1);
+}
+
+div#tabs-0-tab-search_top {
+	color: var(--color);
+}
+
+div#tabs-0-tab-search_account {
+	color: var(--color);
+}
+
+
+div#tabs-0-tab-search_video {
+	color: var(--color);
+}
+
+p.css-2zn17v-PUniqueId.etrd4pu6 {
+	color: var(--color);
+}
+div#main-content-general_search {
+	/* width: 100%; */
+	max-width: 100%;
+}
+/*Acc*/
+svg.like-icon.css-h342g4-StyledPlay.e148ts225 {
+	display: none;
+}
+
+.css-1wrhn5c-AMetaCaptionLine {
+	display: none !important;
+}
+
+.css-15iwytd-DivProfileContainer {
+	box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.5);
+	width: 50px;
+	height: 50px;
+	border-radius: 10px;
+}
+
+.css-16ou6xi-DivTagCardDesc.eih2qak1 {
+	display: none !important;
+}
+
+.css-182zl8v-DivScrollBarThumb {
+	display: none !important;
+}
+
+.css-1tkg7i5-DivVideoFeedTab {
+	background: rgba(255, 255, 255, 0) !important;
+}
+
+.css-1g04lal-DivShareLayoutHeader-StyledDivShareLayoutHeaderV2 {
+	display: none !important;
